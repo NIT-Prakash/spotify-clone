@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <div class="logo">
+                    <img src="image/logo-new.png" alt="Spotify Logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Search</a></li>
+                        <li><a href="#">Your Library</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Main Content -->
+            <div class="main-content">
+                <div class="header">
+                    <h1>Spotify Clone</h1>
+                    <input type="text" placeholder="Search for Songs, Artists, Albums...">
+                </div>
+
+                <!-- Music Section -->
+                <div class="music-section">
+                    <div class="album" data-index="0">
+                        <img src="image/item-1.jpg" alt="Album 1 Cover">
+                        <p>Album 1</p>
+                    </div>
+                    <div class="album" data-index="1">
+                        <img src="image/item-2.jpg" alt="Album 2 Cover">
+                        <p>Album 2</p>
+                    </div>
+                    <div class="album" data-index="2">
+                        <img src="image/item-3.jpg" alt="Album 3 Cover">
+                        <p>Album 3</p>
+                    </div>
+                    <div class="album" data-index="3">
+                        <img src="image/item-4.jpg" alt="Album 4 Cover">
+                        <p>Album 4</p>
+                    </div>
+                    <div class="album" data-index="4">
+                        <img src="image/item-5.jpg" alt="Album 5 Cover">
+                        <p>Album 5</p>
+                    </div>
+                    <div class="album" data-index="5">
+                        <img src="image/item-6.jpg" alt="Album 6 Cover">
+                        <p>Album 6</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Music Controls -->
+        <div class="music-controls">
+            <button id="prev">Previous</button>
+            <button id="play">Play</button>
+            <button id="next">Next</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
